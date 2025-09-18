@@ -3,78 +3,85 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="author" content="Littel Taco shop">
-    <meta name="decription" content="home page">
+    <meta name="author" content="Dahyea Kalvi">
+    <meta name="decription" content="The official webiste for Littel taco Shop">
     <meta name="keywords" content="HTML,CSS Javascript,home">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Littel Tacos shop</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
-    <h1>Welcome to The Littel Taco Shop</h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="#LTS">About LTS</a>
-            </li>
-            <li>
-                <a href="#menu">Our Menu</a>
-            </li>
-            <li>
-                <a href="hours.html">Store Hours</a>
-            </li>
-            <li>
-                <a href="contact.html">Contact Us</a>
-            </li>
-        </ul>
-    </nav>
-    <figure>
-        <img src="img/tacos_and_drink_400x267.png" alt="tacos_and_drink_400x267" title="Tacos and a Drink" width="400"
-            height="267">
-        <figcaption>Tacos and a Drink</figcaption>
-    </figure>
+    <header>
+        <h1>Welcome to The Littel Taco Shop</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#LTS">About <abbr title="Littel Taco Shop">LTS</abbr></a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Store Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <figure>
+            <img src="img/tacos_and_drink_400x267.png" alt="tacos_and_drink_400x267" title="Tacos and a Drink"
+                width="400" height="267">
+            <figcaption>
+                Tacos and a Drink
+            </figcaption>
+        </figure>
+    </header>
     <hr>
-    <article id="LTS">
-        <h2>About <abbr title="Littel Taco Shop">LTS</abbr></h2>
-        <section>
-            <p>
-                <abbr title="Littel Taco Shop">LTS</abbr> was founded in 2022.Our shop was built from a <b>love of
-                    tacos</b>🌮🌮🌮. We hope our shop adds a unique and interesting place to our littel town.
-            </p>
+    <main>
+        <article id="LTS">
+            <h2>About <abbr title="Littel Taco Shop">LTS</abbr></h2>
+            <section>
+                <p>
+                    <abbr title="Littel Taco Shop">LTS</abbr> was founded in <time datetime="2022">2022</time> shop was
+                    built from a <strong>love of
+                        tacos</strong>🌮🌮🌮. We hope our shop adds a unique and interesting place to our littel town.
+                </p>
+                <aside>
+                    <h3>Taco Trivia</h3>
+                    <details>
+                        <summary> When did tacos firt appear in the United States?</summary>
+                        <p>
+                            Jeffery M. Pilcher , taco historian and professor of history at the University of
+                            Minnesota,says
+                            the
+                            earliest mention of tacos in the United State are in a newpaper from <time
+                                datetime="1905">1905</time>.(Source:<cite><a
+                                    href="https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162/"
+                                    target="_blank">Smithsomian
+                                    Magazine</a></cite>)
+                        </p>
 
-            <p><b>Taco Trivia</b></p>
-            <aside>
-                <details>
-                    <summary> When did tacos firt appear in the United States?</summary>
-                    <p>
-                        Jeffery M. Pilcher , taco historian and professor of history at the University of Minnesota,says
-                        the
-                        earliest mention of tacos in the United State are in a newpaper from 1905.
-                    </p>
-                    <p>(Source:<a
-                            href="https://https://www.smithsonianmag.com/arts-culture/where-did-the-taco-come-from-81228162">Smithsomian
-                            Magazine</a>)</p>
+                    </details>
+                </aside>
 
-                </details>
-            </aside>
-
-            <hr>
-            <article id="menu">
-                <h3>Our Menu</h3>
-                <section>
+                <hr>
+                <article id="menu">
+                    <h3>Our Menu</h3>
                     <table>
                         <caption>Our tacos</caption>
                         <thead>
                             <tr>
-                                <th colspan="2" scope="col">Tacos</th>
+                                <th scope="col">Tacos</th>
                                 <th scope="col"><abbr title="Quality">Qty</abbr></th>
                                 <th scope="col">Price</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <th scope="row" colspan="2" rowspan="3">Crunchy</th>
+                                <th scope="row" rowspan="3">Crunchy</th>
                                 <td>1</td>
                                 <td>$1.50</td>
                             </tr>
@@ -87,7 +94,7 @@
                                 <td>$3.25</td>
                             </tr>
                             <tr>
-                                <th scope="row" colspan="2" rowspan="3">Soft</th>
+                                <th scope="row" rowspan="3">Soft</th>
                                 <td>1</td>
                                 <td>$2.00</td>
                             </tr>
@@ -106,9 +113,13 @@
                             </tr>
                         </tfoot>
                     </table>
-                </section>
-            </article>
-            <a href="#">Back To Top</a>
+                    <p>
+                        <a href="#">Back To Top</a>
+                    </p>
+                </article>
+            </section>
+        </article>
+    </main>
 </body>
 
 </html>
